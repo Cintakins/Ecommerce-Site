@@ -78,11 +78,12 @@ TEMPLATES = [
                 'django.template.context_processors.request', # required by django-allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'bag.contexts.bag_contents'
+                'bag.contexts.bag_contents',
+                'django.template.context_processors.media',
             ],
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
-                'crispy_forms.templatetags.cripy_forms_field'
+                'crispy_forms.templatetags.crispy_forms_field'
             ]
         },
     },
